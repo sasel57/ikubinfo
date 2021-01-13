@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ikub-task-manager": {
+      "hosting": {
+        "ikubinfo": [
+          "ikub-task-manager"
+        ]
+      }
+    }
+  }
+}

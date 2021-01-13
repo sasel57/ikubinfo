@@ -120,9 +120,16 @@
               "devServerTarget": "ikubinfo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "ikubinfo"
+  "defaultProject": "ikubinfo",
+  "cli": {
+    "analytics": false
+  }
 }
