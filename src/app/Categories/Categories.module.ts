@@ -10,8 +10,6 @@ import { SharedModule } from '../Shared/Shared.module';
     SharedModule
   ],
   exports: [
-    CategoriesComponent,
-    CategoryModalComponent
   ],
   declarations: [CategoriesComponent, CategoryModalComponent]
 })

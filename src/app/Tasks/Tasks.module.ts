@@ -11,8 +11,6 @@ import { TaskComponent } from './Task/Task.component';
     SharedModule
   ],
   exports: [
-    TaskComponent,
-    TaskModalComponent
   ],
   declarations: [TasksComponent, TaskComponent, TaskModalComponent]
 })

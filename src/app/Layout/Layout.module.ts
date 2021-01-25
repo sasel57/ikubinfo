@@ -11,12 +11,7 @@ import { FooterComponent } from './Footer/Footer.component';
     CommonModule
   ],
   exports: [
-    FooterComponent,
-    FullLayoutComponent,
-    MenuComponent,
-    PageNotFoundComponent
-
-  ],
+     ],
   declarations: [LayoutComponent, FooterComponent, FullLayoutComponent, MenuComponent, PageNotFoundComponent]
 })
 export class LayoutModule { }

@@ -11,9 +11,8 @@ import { SharedModule } from '../Shared/Shared.module';
     SharedModule
   ],
   exports: [
-    LoginComponent,
-    RegisterComponent
+
   ],
-  declarations: [AccountComponent, RegisterComponent, LoginComponent]
+  declarations: [AccountComponent, LoginComponent, RegisterComponent]
 })
 export class AccountModule { }
