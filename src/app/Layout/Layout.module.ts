@@ -10,13 +10,13 @@ import { FooterComponent } from './Footer/Footer.component';
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     FooterComponent,
     FullLayoutComponent,
     MenuComponent,
     PageNotFoundComponent
 
   ],
-  declarations: [LayoutComponent]
+  declarations: [LayoutComponent, FooterComponent, FullLayoutComponent, MenuComponent, PageNotFoundComponent]
 })
 export class LayoutModule { }
